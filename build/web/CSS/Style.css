@@ -1,0 +1,41 @@
+* {
+    margin: 0 auto
+}
+header{
+    width:95%;
+    background-color: #c0c0c0;
+    padding: 10px;
+}
+
+nav{
+    width: 95%;
+    background-color: #4e2470;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c0c0c0;
+}
+main{
+    width: 95%;
+    height: 500px;
+    padding: 10px;
+    background-color: #ededed;
+}
+footer{
+    width: 95%;
+    padding: 10px;
+    background-color: #c0c0c0;
+}
+iframe{
+    border:0px;
+    width: 95%;
+    height: 500px;
+}
+
+

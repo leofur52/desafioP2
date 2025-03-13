@@ -1,0 +1,35 @@
+/* Estilos para a tabela */
+table {
+    width: 70%;
+    background-color: #f9f9f9; /* Fundo claro */
+    border-collapse: collapse; /* Remove as bordas duplas */
+    border: 1px solid #c0c0c0; /* Borda da tabela */
+    margin: 20px auto; /* Centraliza a tabela e adiciona espaço ao redor */
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: #4e2470;
+    color: white;
+    text-align: left;
+    padding: 10px 15px; /* Expande o espaço para melhor legibilidade */
+    font-weight: bold;
+    border-bottom: 2px solid #c0c0c0; /* Borda inferior para separação */
+}
+
+/* Células de dados */
+td {
+    padding: 10px 15px; /* Espaço interno maior */
+    border: 1px solid #ededed; /* Borda leve entre células */
+    color: #333;
+}
+
+/* Cores de fundo alternadas para linhas */
+tr:nth-child(even) {
+    background-color: #f1f1f1; /* Cor de fundo para linhas pares */
+}
+
+/* Estilo ao passar o mouse */
+tr:hover {
+    background-color: #e2e2e2; /* Destaque ao passar o mouse */
+}

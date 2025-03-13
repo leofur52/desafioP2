@@ -1,0 +1,72 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fundo suave */
+    color: #333; /* Texto em cinza escuro */
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cabeçalho principal */
+h1 {
+    font-size: 2em;
+    color: #4e2470; /* Tom roxo para destaque */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Texto introdutório */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 600px;
+    text-align: center;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Subtítulo */
+h2 {
+    font-size: 1.5em;
+    color: #4e2470;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Lista de funcionalidades e entregas */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    max-width: 600px;
+    color: #333;
+    margin: 10px 0;
+}
+
+li {
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 5px 0;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    p, li {
+        font-size: 1em;
+    }
+}
+
